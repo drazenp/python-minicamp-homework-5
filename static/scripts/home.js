@@ -21,3 +21,8 @@ function onClickChangeColor() {
 	var body = document.getElementById('body');
 	body.style.color = newColor;
 };
+
+function onClickHideContent() {
+	var body = document.getElementById('body');
+	body.style.display = 'none';
+};
