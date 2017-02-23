@@ -15,3 +15,9 @@ function validateForm() {
 	
 	return true;
 };
+
+function onClickChangeColor() {
+	var newColor = document.getElementById("newTextColor").value;
+	var body = document.getElementById('body');
+	body.style.color = newColor;
+};
